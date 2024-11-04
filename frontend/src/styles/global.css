@@ -1,0 +1,19 @@
+.header {
+    background: #121826;
+    justify-content: space-between;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.search-label {
+    color: white;
+}
+
+
+body {
+    margin: 0px;
+}
+
