@@ -5,11 +5,23 @@
     display: flex;
     align-items: center;
     position: relative;
+    padding: 15px;
 
 }
 
-.search-label {
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    height: 45px
+}
+
+.search {
     color: white;
+    align-items: center;
+    height: 25px;
+    width: 300px;
+    display: flex;
 }
 
 
