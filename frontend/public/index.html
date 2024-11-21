@@ -7,15 +7,33 @@
     <link rel="stylesheet" href="../src/styles/global.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="logo">
-            <img src="../src/assets/images/logo.png" alt="logo" width="500px">
+            <img src="../src/assets/images/logo.png" alt="logo" width="120px">
         </div>
-        <div>
-            <form>
-                <input class ="search" type="text" id="search" placeholder="Search all bookmarks">
-            </form>
+        <div class="search-container">
+            <input class ="search" type="text" placeholder="Search bookmarks, folders and projects">
         </div>
+        
+    </header>
+
+    <div class="main-container">
+        <nav class="left-sidebar">
+            <button class="nav-item" data-page="home" title="Home">
+                <img src="../src/assets/images/home.png" class="nav-icon" alt="home">
+            </button>
+            <button class="nav-item" data-page="bookmarks" title="Bookmarks">
+                <img src="../src/assets/images/bookmark.png" class="nav-icon" alt="bookmarks">
+            </button>
+            <button class="nav-item" data-page="notes" title="Notes">
+                <img src="../src/assets/images/notes.png" class="nav-icon" alt="notes">
+            </button>
+            <button class="nav-item" data-page="projects" title="Projects">
+                <img src="../src/assets/images/projects.png" class="nav-icon" alt="projects">
+            </button>
+        </nav>
     </div>
+
+    <script src="../src/app.js" defer></script>
+    <script src="../src/utils/db.js" defer></script>
 </body>
-</html>
